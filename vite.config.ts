@@ -28,6 +28,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
+                discussion_info: "./views/info/discussion.html",
                 ...getMapsScripts(maps),
             },
         },
